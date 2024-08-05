@@ -2,11 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    // Specify the image formats you want to use
+    domains: ["yourdomain.com"],
     formats: ["image/avif", "image/webp"],
-    // If you are using external image sources, add their domains here
-    // Example:
-    // domains: ['example.com'],
   },
 };
 
