@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Navbar() {
   return (
     <nav className="flex bg-red-700 w-[100%] flex-row items-center justify-between p-[20px]">
@@ -6,9 +7,9 @@ export default function Navbar() {
       </div>
       <ul className="flex justify-center items-center gap-[20px]">
         <li>
-          <a href="/Authantication" className="text-white">
-            Sign up
-          </a>
+          <Link href="/404" legacyBehavior>
+            <a className="text-center text-white">Sign up</a>
+          </Link>
         </li>
         <li>
           <a href="#" className="text-white">
