@@ -6,7 +6,7 @@ export default function Navbar() {
       </div>
       <ul className="flex justify-center items-center gap-[20px]">
         <li>
-          <a href="#" className="text-white">
+          <a href="/Authantication" className="text-white">
             Sign up
           </a>
         </li>
