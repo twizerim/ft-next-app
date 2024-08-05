@@ -14,7 +14,7 @@
     "incremental": true,
     "paths": {
       "@/*": ["./src/*"],
-      "@shared/*": ["./src/component/shared/*"],
+      "@shared/*": ["./src/component/shared/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
