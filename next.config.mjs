@@ -1,4 +1,5 @@
-/** @type {import('next').NextConfig} */
+import withTM from "next-transpile-modules";
+
 const nextConfig = {
   reactStrictMode: true,
   images: {
@@ -7,4 +8,4 @@ const nextConfig = {
   },
 };
 
-export default nextConfig;
+export default withTM(["@ant-design/icons"])(nextConfig);
